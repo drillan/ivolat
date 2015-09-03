@@ -139,7 +139,7 @@ def dualdelta(s, k, r, q, t, sigma, pc):
 
 
 def ivolat(s, k, r, q, t, p, pc):
-    return ivolat_dict[porc(pc)](s, k, r, q, t, sigma)
+    return ivolat_dict[porc(pc)](s, k, r, q, t, p)
 
 
 if __name__ == "__main__":
